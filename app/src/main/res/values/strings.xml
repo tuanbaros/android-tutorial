@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Andtut</string>
     <string name="drag_drop">drag and drop</string>
+    <string name="start_note">Start Notification</string>
+    <string name="cancel_note">Cancel Notification</string>
+    <string name="update_note">Update Notification</string>
 </resources>
