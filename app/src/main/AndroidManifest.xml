@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="app.andtut">
 
-    <uses-permission android:name = "android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name = "android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -12,14 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".draganddrop.DragAndDropActivity" />
-        <activity android:name=".notifications.NotificationActivity">
-        </activity>
+        <activity android:name=".notifications.NotificationActivity"></activity>
         <activity android:name=".notifications.NotificationView">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".notifications.NotificationActivity" />
         </activity>
         <activity android:name=".locationbasedservices.LocationBasedServicesActivity">
+        </activity>
+        <activity android:name=".sendingemail.SendingEmailActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
