@@ -25,6 +25,7 @@
     <string name="Visible">Visible</string>
     <string name="List">List</string>
     <string name="off">Off</string>
+    <string name="Capture">Capture</string>
 
     <string-array name="list_of_countries">
         <item>USA</item>

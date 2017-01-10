@@ -1,23 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="app.andtut">
+<manifest package="app.andtut"
+          xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.SEND_SMS" />
-    <uses-permission android:name="android.permission.CALL_PHONE" />
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.BLUETOOTH"/>
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
 
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
     <uses-feature
         android:glEsVersion="0x00020000"
-        android:required="true" />
+        android:required="true"/>
 
     <application
         android:allowBackup="true"
@@ -25,34 +28,36 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".draganddrop.DragAndDropActivity" />
-        <activity android:name=".notifications.NotificationActivity" />
+        <activity android:name=".draganddrop.DragAndDropActivity"/>
+        <activity android:name=".notifications.NotificationActivity"/>
         <activity android:name=".notifications.NotificationView">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".notifications.NotificationActivity" />
+                android:value=".notifications.NotificationActivity"/>
         </activity>
-        <activity android:name=".locationbasedservices.LocationBasedServicesActivity" />
-        <activity android:name=".sendingemail.SendingEmailActivity" />
-        <activity android:name=".sendingsms.SendingSmsActivity" />
-        <activity android:name=".makephonecall.MakePhoneCallActivity" />
-        <activity android:name=".alertdialog.AlertDialogActivity" />
-        <activity android:name=".audiocapture.AudioCaptureActivity" />
-        <activity android:name=".audiomanager.AudioManagerActivity" />
+        <activity android:name=".locationbasedservices.LocationBasedServicesActivity"/>
+        <activity android:name=".sendingemail.SendingEmailActivity"/>
+        <activity android:name=".sendingsms.SendingSmsActivity"/>
+        <activity android:name=".makephonecall.MakePhoneCallActivity"/>
+        <activity android:name=".alertdialog.AlertDialogActivity"/>
+        <activity android:name=".audiocapture.AudioCaptureActivity"/>
+        <activity android:name=".audiomanager.AudioManagerActivity"/>
         <activity android:name=".googlemap.GoogleMapActivity">
         </activity>
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyCoMpoC_5S8wjd4CpIyu17Aq5_SoZ4ilYo" />
+            android:value="AIzaSyCoMpoC_5S8wjd4CpIyu17Aq5_SoZ4ilYo"/>
 
         <activity android:name=".autocomplete.AutoCompleteActivity">
         </activity>
         <activity android:name=".bluetooth.BluetoothActivity">
+        </activity>
+        <activity android:name=".camera.CameraActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
     </application>
