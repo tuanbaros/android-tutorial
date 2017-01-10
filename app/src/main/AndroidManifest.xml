@@ -7,7 +7,7 @@
     <uses-permission android:name="android.permission.SEND_SMS" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
     <application
@@ -31,6 +31,8 @@
         <activity android:name=".alertdialog.AlertDialogActivity">
         </activity>
         <activity android:name=".audiocapture.AudioCaptureActivity">
+        </activity>
+        <activity android:name=".audiomanager.AudioManagerActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
