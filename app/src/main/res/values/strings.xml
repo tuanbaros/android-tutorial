@@ -19,4 +19,18 @@
     <string name="Ring">Ring</string>
     <string name="Mode">Mode</string>
     <string name="Status">Status</string>
+    <string name="auto_complete">Auto Complete</string>
+    <string name="multi_auto_complete">Multi Auto Complete</string>
+
+    <string-array name="list_of_countries">
+        <item >USA</item>
+        <item >Uk</item>
+        <item >Canada</item>
+        <item >Australia</item>
+        <item >France</item>
+        <item >Italy</item>
+        <item >China</item>
+        <item >Japan</item>
+        <item >Spain</item>
+    </string-array>
 </resources>

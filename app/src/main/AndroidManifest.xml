@@ -10,12 +10,11 @@
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
-
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <uses-feature
         android:glEsVersion="0x00020000"
-        android:required="true"/>
+        android:required="true" />
 
     <application
         android:allowBackup="true"
@@ -33,26 +32,24 @@
         <activity android:name=".locationbasedservices.LocationBasedServicesActivity" />
         <activity android:name=".sendingemail.SendingEmailActivity" />
         <activity android:name=".sendingsms.SendingSmsActivity" />
-        <activity android:name=".makephonecall.MakePhoneCallActivity">
-        </activity>
-        <activity android:name=".alertdialog.AlertDialogActivity">
-        </activity>
-        <activity android:name=".audiocapture.AudioCaptureActivity">
-        </activity>
-        <activity android:name=".audiomanager.AudioManagerActivity">
-        </activity>
+        <activity android:name=".makephonecall.MakePhoneCallActivity" />
+        <activity android:name=".alertdialog.AlertDialogActivity" />
+        <activity android:name=".audiocapture.AudioCaptureActivity" />
+        <activity android:name=".audiomanager.AudioManagerActivity" />
         <activity android:name=".googlemap.GoogleMapActivity">
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCoMpoC_5S8wjd4CpIyu17Aq5_SoZ4ilYo" />
+
+        <activity android:name=".autocomplete.AutoCompleteActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyCoMpoC_5S8wjd4CpIyu17Aq5_SoZ4ilYo"/>
-
     </application>
 
 </manifest>
