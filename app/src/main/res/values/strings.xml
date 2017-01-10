@@ -21,16 +21,20 @@
     <string name="Status">Status</string>
     <string name="auto_complete">Auto Complete</string>
     <string name="multi_auto_complete">Multi Auto Complete</string>
+    <string name="on">On</string>
+    <string name="Visible">Visible</string>
+    <string name="List">List</string>
+    <string name="off">Off</string>
 
     <string-array name="list_of_countries">
-        <item >USA</item>
-        <item >Uk</item>
-        <item >Canada</item>
-        <item >Australia</item>
-        <item >France</item>
-        <item >Italy</item>
-        <item >China</item>
-        <item >Japan</item>
-        <item >Spain</item>
+        <item>USA</item>
+        <item>Uk</item>
+        <item>Canada</item>
+        <item>Australia</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>China</item>
+        <item>Japan</item>
+        <item>Spain</item>
     </string-array>
 </resources>
