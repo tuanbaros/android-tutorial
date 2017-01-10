@@ -13,4 +13,10 @@
     <string name="start">Start</string>
     <string name="stop">Stop</string>
     <string name="play">Play</string>
+    <string name="audio">Audio</string>
+    <string name="Vibrate">Vibrate</string>
+    <string name="Silent">Silent</string>
+    <string name="Ring">Ring</string>
+    <string name="Mode">Mode</string>
+    <string name="Status">Status</string>
 </resources>
