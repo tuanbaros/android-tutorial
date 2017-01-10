@@ -9,4 +9,8 @@
     <string name="send_sms_label">Send SMS</string>
     <string name="make_call">Make Call</string>
     <string name="hello_world">Alert Dialog</string>
+    <string name="Recording">Recording</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="play">Play</string>
 </resources>

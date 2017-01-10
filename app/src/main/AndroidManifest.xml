@@ -7,6 +7,8 @@
     <uses-permission android:name="android.permission.SEND_SMS" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
     <application
         android:allowBackup="true"
@@ -23,10 +25,12 @@
         </activity>
         <activity android:name=".locationbasedservices.LocationBasedServicesActivity" />
         <activity android:name=".sendingemail.SendingEmailActivity" />
-        <activity android:name=".sendingsms.SendingSmsActivity"></activity>
+        <activity android:name=".sendingsms.SendingSmsActivity" />
         <activity android:name=".makephonecall.MakePhoneCallActivity">
         </activity>
         <activity android:name=".alertdialog.AlertDialogActivity">
+        </activity>
+        <activity android:name=".audiocapture.AudioCaptureActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
