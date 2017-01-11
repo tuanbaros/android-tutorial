@@ -35,7 +35,7 @@
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="48dp"
-            android:text="@string/tap"
+            android:text="@string/hello_world"
             android:textAppearance="?android:attr/textAppearanceLarge" />
 
     </RelativeLayout>
