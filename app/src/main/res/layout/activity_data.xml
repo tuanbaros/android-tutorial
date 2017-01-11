@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <variable name="user" type="app.andtut.databinding.User"/>
+        <variable name="handlers" type="app.andtut.databinding.MyHandlers"/>
+        <variable name="presenter" type="app.andtut.databinding.Presenter" />
+    </data>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{user.firstName}"
+            android:onClick="@{handlers::onClickFriend}"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{user.lastName + String.valueOf(user.isAdult)}"
+            android:onClick="@{(theview) -> presenter.onSaveClick(theview, user)}"
+            android:onLongClick="@{() -> presenter.onLongClick(user)}"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="@{user.isAdult}"
+            android:onCheckedChanged="@{(view, isChecked) -> presenter.onCompletedChanged(user, isChecked)}" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@={user.lastName}"/>
+
+    </LinearLayout>
+
+</layout>

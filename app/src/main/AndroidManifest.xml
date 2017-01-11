@@ -55,16 +55,22 @@
         <activity android:name=".camera.CameraActivity">
         </activity>
         <activity android:name=".clipboard.ClipBoardActivity">
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.backup.api_key"
+            android:value="AEdPqrEAAAAIq1wgkv0ecA3L_cCgZwMQ0DmdwD_WxyzsSD0nnA"/>
+
+        <activity android:name=".databinding.DataActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".databinding.vogella.TestActivity">
 
-        <meta-data
-            android:name="com.google.android.backup.api_key"
-            android:value="AEdPqrEAAAAIq1wgkv0ecA3L_cCgZwMQ0DmdwD_WxyzsSD0nnA" />
+        </activity>
     </application>
 
 </manifest>
