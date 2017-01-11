@@ -68,6 +68,9 @@
         <activity android:name=".gesture.GestureActivity">
         </activity>
         <activity android:name=".imageeffect.ImageEffectActivity">
+
+        </activity>
+        <activity android:name=".imageswitcher.ImageSwitcherActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
