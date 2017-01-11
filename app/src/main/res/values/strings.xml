@@ -28,6 +28,9 @@
     <string name="Capture">Capture</string>
     <string name="paste">Paste</string>
     <string name="copy">Copy</string>
+    <string name="gray">Gray</string>
+    <string name="bright">Bright</string>
+    <string name="dark">dark</string>
 
     <string-array name="list_of_countries">
         <item>USA</item>
