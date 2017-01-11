@@ -33,6 +33,7 @@
     <string name="dark">dark</string>
     <string name="save">save</string>
     <string name="read">read</string>
+    <string name="tap">tap</string>
 
     <string-array name="list_of_countries">
         <item>USA</item>
