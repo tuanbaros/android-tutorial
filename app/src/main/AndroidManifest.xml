@@ -66,6 +66,8 @@
         <activity android:name=".databinding.vogella.TestActivity">
         </activity>
         <activity android:name=".gesture.GestureActivity">
+        </activity>
+        <activity android:name=".imageeffect.ImageEffectActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
