@@ -76,6 +76,8 @@
         <activity android:name=".linkedinintegration.LinkedinIntegrationActivity">
         </activity>
         <activity android:name=".mediaplayer.MediaPlayerActivity">
+        </activity>
+        <activity android:name=".multitouch.MultiTouchActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
