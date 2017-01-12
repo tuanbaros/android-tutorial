@@ -35,6 +35,11 @@
     <string name="read">read</string>
     <string name="tap">tap</string>
     <string name="inital_Time">inital time</string>
+    <string name="xaxis">X-Axis</string>
+    <string name="yaxis">Y-Axis</string>
+    <string name="MoveX">Move X</string>
+    <string name="MoveY">Move Y</string>
+    <string name="perform">Touch here</string>
 
     <string-array name="list_of_countries">
         <item>USA</item>
