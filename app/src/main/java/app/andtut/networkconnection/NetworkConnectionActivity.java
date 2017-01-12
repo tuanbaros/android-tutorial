@@ -16,7 +16,7 @@ public class NetworkConnectionActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         mBinding = DataBindingUtil.setContentView(this, R.layout.activity_network_connection);
         mBinding.setActivity(this);
-        mBinding.urlEditText.setText("http://tutorialspoint.com/");
+        mBinding.urlEditText.setText("http://android-samsung.herokuapp.com/api/category");
     }
 
     public void download(){
