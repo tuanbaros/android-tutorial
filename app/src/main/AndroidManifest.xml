@@ -77,7 +77,10 @@
         </activity>
         <activity android:name=".mediaplayer.MediaPlayerActivity">
         </activity>
-        <activity android:name=".multitouch.MultiTouchActivity">
+        <activity android:name=".multitouch.MultiTouchActivity"
+            android:parentActivityName=".navigation.NavigationActivity">
+        </activity>
+        <activity android:name=".navigation.NavigationActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 

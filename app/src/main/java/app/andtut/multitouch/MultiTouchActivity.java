@@ -1,8 +1,11 @@
 package app.andtut.multitouch;
 
 import android.databinding.DataBindingUtil;
+import android.support.v4.app.NavUtils;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.MotionEvent;
 
 import app.andtut.R;
@@ -21,6 +24,8 @@ public class MultiTouchActivity extends AppCompatActivity {
         mBinding = DataBindingUtil.setContentView(this, R.layout.activity_multi_touch);
         mEventTouch = new EventTouch();
         mBinding.setEventTouch(mEventTouch);
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
     @Override
@@ -47,5 +52,22 @@ public class MultiTouchActivity extends AppCompatActivity {
             }
         }
         return true;
+    }
+
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            //Respond to the action bar's Up/Home button
+            case android.R.id.home:
+                NavUtils.navigateUpFromSameTask(this);
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+    @Override
+    public void onBackPressed() {
+        moveTaskToBack(true);
+        this.finish();
     }
 }
