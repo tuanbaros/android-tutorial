@@ -34,6 +34,7 @@
     <string name="save">save</string>
     <string name="read">read</string>
     <string name="tap">tap</string>
+    <string name="inital_Time">inital time</string>
 
     <string-array name="list_of_countries">
         <item>USA</item>
