@@ -74,6 +74,8 @@
         <activity android:name=".internalstorage.InternalStorageActivity">
         </activity>
         <activity android:name=".linkedinintegration.LinkedinIntegrationActivity">
+        </activity>
+        <activity android:name=".mediaplayer.MediaPlayerActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
