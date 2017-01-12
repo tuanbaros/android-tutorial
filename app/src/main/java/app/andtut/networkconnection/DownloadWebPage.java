@@ -4,14 +4,19 @@ import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.AsyncTask;
+import android.util.JsonReader;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
 
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.util.Scanner;
 
 /**
  * Created by tuannt on 12/01/2017.
@@ -62,14 +67,24 @@ class DownloadWebPage extends AsyncTask<String, Void, String> {
             conn.setDoInput(true);
             conn.connect();
             InputStream is = conn.getInputStream();
-            BufferedReader reader = new BufferedReader(new InputStreamReader
-                (is, "UTF-8") );
-            String data;
-            String webPage = "";
-            while ((data = reader.readLine()) != null){
-                webPage += data + "\n";
-            }
-            return webPage;
+//            BufferedReader reader = new BufferedReader(new InputStreamReader
+//                (is, "UTF-8") );
+//            String data;
+//            String webPage = "";
+//            while ((data = reader.readLine()) != null){
+//                webPage += data + "\n";
+//            }
+//            return webPage;
+
+            //json
+            Scanner scanner = new Scanner(is).useDelimiter("\\A");
+            String data = scanner.hasNext() ? scanner.next() : "";
+//            JsonReader jsonReader = new JsonReader(new InputStreamReader(is, "UTF8"));
+            JSONArray jsonArray = new JSONArray(data);
+            JSONObject jsonObject = jsonArray.getJSONObject(0);
+
+            return jsonObject.getString("name");
+
         }catch(Exception e){
             return "Exception: " + e.getMessage();
         }
