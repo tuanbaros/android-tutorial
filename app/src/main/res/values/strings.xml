@@ -40,6 +40,9 @@
     <string name="MoveX">Move X</string>
     <string name="MoveY">Move Y</string>
     <string name="perform">Touch here</string>
+    <string name="url">URL here</string>
+    <string name="click">Download</string>
+    <string name="google">URL</string>
 
     <string-array name="list_of_countries">
         <item>USA</item>
