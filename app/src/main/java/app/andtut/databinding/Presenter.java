@@ -7,6 +7,7 @@ import com.google.android.gms.tasks.Task;
 
 /**
  * Created by tuannt on 10/01/2017.
+ * Project name: android-tutorial
  */
 public class Presenter {
     public boolean onSaveClick(View view, User user){

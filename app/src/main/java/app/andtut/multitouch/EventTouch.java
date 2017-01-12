@@ -7,6 +7,7 @@ import app.andtut.BR;
 
 /**
  * Created by tuannt on 12/01/2017.
+ * <tuanbaros>
  */
 public class EventTouch extends BaseObservable {
 

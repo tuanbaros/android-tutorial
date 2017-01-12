@@ -7,6 +7,7 @@ import app.andtut.BR;
 
 /**
  * Created by tuannt on 10/01/2017.
+ * android-tutorial
  */
 public class User extends BaseObservable{
     private String firstName;
