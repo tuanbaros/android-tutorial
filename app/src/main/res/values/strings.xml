@@ -43,6 +43,11 @@
     <string name="url">URL here</string>
     <string name="click">Download</string>
     <string name="google">URL</string>
+    <string name="notification">notification</string>
+    <string name="title">title</string>
+    <string name="heading">heading</string>
+    <string name="body">body</string>
+    <string name="create">create</string>
 
     <string-array name="list_of_countries">
         <item>USA</item>
