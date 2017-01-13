@@ -48,6 +48,9 @@
     <string name="heading">heading</string>
     <string name="body">body</string>
     <string name="create">create</string>
+    <string name="link">link</string>
+    <string name="fetch">fetch</string>
+    <string name="description">description</string>
 
     <string-array name="list_of_countries">
         <item>USA</item>
