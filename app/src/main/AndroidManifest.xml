@@ -88,6 +88,8 @@
         <activity android:name=".notifications.PushNotificationActivity">
         </activity>
         <activity android:name=".renderscript.RenderScriptActivity">
+        </activity>
+        <activity android:name=".rssreader.RssReaderActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
