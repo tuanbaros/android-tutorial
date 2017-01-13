@@ -84,6 +84,8 @@
         <activity android:name=".navigation.NavigationActivity">
         </activity>
         <activity android:name=".networkconnection.NetworkConnectionActivity">
+        </activity>
+        <activity android:name=".notifications.PushNotificationActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
