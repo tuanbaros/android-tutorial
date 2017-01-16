@@ -57,6 +57,10 @@
     <string name="street">street</string>
     <string name="country">country</string>
 
+    <string name="contactAddress">SIP Address to contact</string>
+    <string name="talk">Talk</string>
+
+
     <string-array name="list_of_countries">
         <item>USA</item>
         <item>Uk</item>

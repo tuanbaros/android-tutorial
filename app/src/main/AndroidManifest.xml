@@ -14,7 +14,20 @@
     <uses-permission android:name="android.permission.BLUETOOTH"/>
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
     <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.USE_SIP"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
 
+    <uses-feature
+        android:name="android.hardware.sip.voip"
+        android:required="true"/>
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="true"/>
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required="true"/>
     <uses-feature android:name="android.hardware.camera"/>
     <uses-feature android:name="android.hardware.camera.autofocus"/>
     <uses-feature
@@ -94,12 +107,21 @@
         <activity android:name=".sensor.SensorActivityActivity">
         </activity>
         <activity android:name=".sharepreferences.SharedPreferencesActivity">
+        </activity>
+
+
+        <activity
+            android:name=".sip.WalkieTalkieActivity"
+            android:configChanges="orientation|keyboardHidden">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".sip.SipSettings" android:label="set_preferences"/>
+        <receiver android:name=".sip.IncomingCallReceiver" android:label="Call Receiver"/>
+
     </application>
 
 </manifest>
