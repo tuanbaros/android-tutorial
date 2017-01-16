@@ -108,20 +108,25 @@
         </activity>
         <activity android:name=".sharepreferences.SharedPreferencesActivity">
         </activity>
-
-
         <activity
             android:name=".sip.WalkieTalkieActivity"
             android:configChanges="orientation|keyboardHidden">
+        </activity>
+        <activity
+            android:name=".sip.SipSettings"
+            android:label="set_preferences"/>
+
+        <receiver
+            android:name=".sip.IncomingCallReceiver"
+            android:label="Call Receiver"/>
+
+        <activity android:name=".spellchecker.SpellCheckerActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".sip.SipSettings" android:label="set_preferences"/>
-        <receiver android:name=".sip.IncomingCallReceiver" android:label="Call Receiver"/>
-
     </application>
 
 </manifest>
