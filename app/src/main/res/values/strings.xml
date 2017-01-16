@@ -51,6 +51,11 @@
     <string name="link">link</string>
     <string name="fetch">fetch</string>
     <string name="description">description</string>
+    <string name="name">name</string>
+    <string name="email">email</string>
+    <string name="phone">phone</string>
+    <string name="street">street</string>
+    <string name="country">country</string>
 
     <string-array name="list_of_countries">
         <item>USA</item>

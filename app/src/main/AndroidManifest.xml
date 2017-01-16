@@ -92,6 +92,8 @@
         <activity android:name=".rssreader.RssReaderActivity">
         </activity>
         <activity android:name=".sensor.SensorActivityActivity">
+        </activity>
+        <activity android:name=".sharepreferences.SharedPreferencesActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
