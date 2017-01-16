@@ -39,5 +39,6 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.0.1'
     testCompile 'junit:junit:4.12'
     compile 'com.google.android.gms:play-services-maps:10.0.1'
+    compile 'lalosoft.android-utilities:easypermissions:1.0.1'
     compile project(':linkedin-sdk')
 }
