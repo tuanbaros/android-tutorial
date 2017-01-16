@@ -60,6 +60,8 @@
     <string name="contactAddress">SIP Address to contact</string>
     <string name="talk">Talk</string>
 
+    <string name="suggest">suggest</string>
+    <string name="pre">Suggestions</string>
 
     <string-array name="list_of_countries">
         <item>USA</item>
