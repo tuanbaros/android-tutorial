@@ -1,13 +1,18 @@
 package app.andtut.rssreader;
 
+import android.Manifest;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
+import com.lalosoft.easypermission.EasyPermissionActivity;
+import com.lalosoft.easypermission.RegisterPermission;
+
 import app.andtut.R;
 import app.andtut.databinding.ActivityRssReaderBinding;
 
-public class RssReaderActivity extends AppCompatActivity {
+@RegisterPermission(permissions = {Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.READ_EXTERNAL_STORAGE})
+public class RssReaderActivity extends EasyPermissionActivity {
 
     private ActivityRssReaderBinding mBinding;
 
