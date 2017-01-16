@@ -90,6 +90,8 @@
         <activity android:name=".renderscript.RenderScriptActivity">
         </activity>
         <activity android:name=".rssreader.RssReaderActivity">
+        </activity>
+        <activity android:name=".sensor.SensorActivityActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
