@@ -63,6 +63,11 @@
     <string name="suggest">suggest</string>
     <string name="pre">Suggestions</string>
 
+    <string name="test1">This is activity 1</string>
+    <string name="test2">This is activity 2</string>
+    <string name="go1">Go to activity 1</string>
+    <string name="go2">Go to activity 2</string>
+
     <string-array name="list_of_countries">
         <item>USA</item>
         <item>Uk</item>
