@@ -68,6 +68,9 @@
     <string name="go1">Go to activity 1</string>
     <string name="go2">Go to activity 2</string>
 
+    <string name="text1">Text to Speech</string>
+    <string name="write">Write Text</string>
+
     <string-array name="list_of_countries">
         <item>USA</item>
         <item>Uk</item>

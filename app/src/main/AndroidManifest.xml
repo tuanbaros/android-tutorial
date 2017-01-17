@@ -123,13 +123,15 @@
         <activity android:name=".spellchecker.SpellCheckerActivity">
         </activity>
         <activity android:name=".testing.TestingActivity">
+        </activity>
+        <activity android:name=".testing.TestActivity">
+        </activity>
+        <activity android:name=".texttospeech.TextToSpeechActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
-        </activity>
-        <activity android:name=".testing.TestActivity">
         </activity>
     </application>
 
