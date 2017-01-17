@@ -127,6 +127,8 @@
         <activity android:name=".testing.TestActivity">
         </activity>
         <activity android:name=".texttospeech.TextToSpeechActivity">
+        </activity>
+        <activity android:name=".textureview.TextureViewActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
