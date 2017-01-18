@@ -72,6 +72,7 @@
 
     <string name="hello_world">URL:</string>
     <string name="browse">Browse</string>
+    <string name="website">website</string>
 
     <string-array name="list_of_countries">
         <item>USA</item>
