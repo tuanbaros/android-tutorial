@@ -8,7 +8,6 @@
     <string name="sms_label">SMS</string>
     <string name="send_sms_label">Send SMS</string>
     <string name="make_call">Make Call</string>
-    <string name="hello_world">Hello World!</string>
     <string name="Recording">Recording</string>
     <string name="start">Start</string>
     <string name="stop">Stop</string>
@@ -70,6 +69,9 @@
 
     <string name="text1">Text to Speech</string>
     <string name="write">Write Text</string>
+
+    <string name="hello_world">URL:</string>
+    <string name="browse">Browse</string>
 
     <string-array name="list_of_countries">
         <item>USA</item>
